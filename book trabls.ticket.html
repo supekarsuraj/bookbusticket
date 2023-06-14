@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Title Page</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        
+        <div class="container">
+            <h1 class="text-center"><h2><strong>Book Travales Ticket</strong></h2></h1>
+            
+        </div>
+        
+        <div class="container">
+            <div class="form-group">
+                <label for="">NAME</label><br>
+                <input type="text" class="form-control" id="name" placeholder="Input field">
+            </div>
+            
+                <div class="form-group">
+                    <label for="">Select Place</label><br>
+                    <select name="" id="place">
+                        <option value="Select ticket">select ticket</option>
+                        <option value="PUNE">PUNE</option>
+                        <option value="MUMBAI">MUMBAI</option>
+                        <option value="CH.sambajhi nagar(a.bad)">CH.sambajhi nagar(a.bad)</option>
+                        <option value="nagar">NAGAR</option>
+                        <option value="KOLHAPUR">KOLHAPUR</option>
+                        <option value="BEED">BEED</option>
+                        <option value="Hingoli">Hingoli</option>
+                        <option value="JALANA">JALANA</option>
+                    </select>
+                   
+                </div>
+                
+                    <div class="form-group">
+                        <label for="">BOOK Ticket</label><br>
+                        <input type="number" class="form-control" id="ticket" placeholder="Input">
+                    </div>
+            <button type="submit" class="btn btn-primary" onclick="fun1()">Submit</button>
+        </form>
+        
+            
+        </div>
+        <script>
+            function fun1(){
+                var name=document.getElementById("name").value;
+                var place=document.getElementById("place")
+
+
+            }
+        </script>
+       
+        
+           
+        
+       
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>
